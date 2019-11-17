@@ -2,21 +2,70 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flexCenter {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.flexColumn {
+  flex-direction: column;
 }
 
-.App-link {
-  color: #09d3ac;
+.delayTypeInfo {
+  color: green;
+}
+.delayTypeInfoWrapper {
+  padding-bottom: 12px;
+}
+
+.chButton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+/*chart*/
+.chartTitle {
+  fill: grey;
+  font-weight: bold;
+}
+
+.chartXAxisLabel {
+  fill: grey;
+  font-weight: bold;
+}
+
+.chartYAxisLabel {
+  fill: grey;
+  font-weight: bold;
+}
+
+.horizontalGrid {
+  stroke: lightgrey;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  padding-bottom: 30%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.svg-content {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  opacity: 0;
 }
